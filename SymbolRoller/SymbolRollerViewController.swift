@@ -20,6 +20,7 @@ class SymbolRollerViewController: UIViewController {
         // TODO:
         // 심볼에서 하나를 임의로 추출해서 이미지와 텍스트를 설정한다.
         reload()
+        button.tintColor = UIColor.systemPink
     }
     
     override func viewWillAppear(_ animated: Bool) {
